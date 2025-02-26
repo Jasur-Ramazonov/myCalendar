@@ -15,7 +15,7 @@ const MyCalendar = () => {
     setDifference(differenceInDayes);
   };
   return (
-    <div className="p-5">
+    <div>
       <h3 className="text-center">Kunlar orasidagi farq: {difference}</h3>
       <FullCalendar
         plugins={[dayGridPlugin, interactionPlugin]}
