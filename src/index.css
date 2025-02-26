@@ -19,6 +19,11 @@ body {
 /* Sana bloklari (kun joylashgan quti) */
 .fc-daygrid-day {
   color: white !important;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.fc-daygrid-day:hover {
+  background-color: #27ae60;
 }
 
 /* Header (oy va hafta nomlari joylashgan joy) */
@@ -32,3 +37,8 @@ body {
   background-color: #ff9800 !important;
   color: black !important;
 } */
+
+.my-date {
+  background-color: #81ecec;
+  border-radius: 10px;
+}
